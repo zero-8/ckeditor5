@@ -31,11 +31,11 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 
 // import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor.js';
-import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 // import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 // import Image from '@ckeditor/ckeditor5-image/src/image.js';
 // import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
-import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
+// import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
 // import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 
 
@@ -67,8 +67,8 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	Base64UploadAdapter,
-	ImageResize,
+	// Base64UploadAdapter,
+	// ImageResize,
 	
 ];
 
