@@ -55,7 +55,7 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
 
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
 
-// import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
 // import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
 // import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
 
@@ -125,7 +125,7 @@ ClassicEditor.builtinPlugins = [
 
 
 	MediaEmbed,
-	// PageBreak,	
+	PageBreak,	
 	
 	// RemoveFormat,
 	// SpecialCharacters,
@@ -160,12 +160,14 @@ ClassicEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'underline',
-			'strikethrough',
+			
 			'fontFamily',
 			'fontColor',
 			'fontBackgroundColor',
 
-
+			'strikethrough',
+			'superscript',
+			'subscript',
 			'|',
 			'highlight',
 			'|',
@@ -176,7 +178,10 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'indent',
 			'outdent',
+			'pageBreak',
+			
 			'|',
+
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
@@ -203,14 +208,13 @@ ClassicEditor.defaultConfig = {
 			// 'code',
 			// 'codeBlock',
 			// 'blockQuote',
-			// 'superscript',
-			// 'subscript',
+		
 			// 'specialCharacters',
 			// '|',
 			// 'alignment',
 			// 'indent',
 			// 'outdent',
-			// 'pageBreak',
+			
 			// '|',
 			// 'bulletedList',
 			// 'numberedList',
