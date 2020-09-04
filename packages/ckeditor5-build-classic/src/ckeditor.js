@@ -69,9 +69,8 @@ import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/sp
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript.js';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
-// import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-
-// import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 
 
 
@@ -139,8 +138,8 @@ ClassicEditor.builtinPlugins = [
 	Subscript,
 	Superscript,
 	
-	// TableCellProperties,
-	// TableProperties,
+	TableCellProperties,
+	TableProperties,
 	
 
 
@@ -177,20 +176,20 @@ ClassicEditor.defaultConfig = {
 			'link',
 			'bulletedList',
 			'numberedList',
+			'todoList',
 			'|',
 			'indent',
 			'outdent',
 			'pageBreak',
+			'HorizontalLine',
 
 			'|',
 
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',	
-			'HorizontalLine',
+			'mediaEmbed',				
 			'Base64UploadAdapter'
-
 
 			// 'undo',
 			// 'redo',
