@@ -103,7 +103,9 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	image: {
-
+  		 styles: [
+                'alignLeft', 'alignCenter', 'alignRight'
+            ],
  		 resizeOptions: [
                 {
                     name: 'imageResize:original',
@@ -122,8 +124,8 @@ ClassicEditor.defaultConfig = {
                 }
             ],
 		toolbar: [
-			'imageStyle:alignLeft',			
-			'|',
+			 'imageStyle:alignLeft', 'imageStyle:alignCenter', 'imageStyle:alignRight',
+                '|',
                 'imageResize',
             '|',
 			'imageStyle:full',
