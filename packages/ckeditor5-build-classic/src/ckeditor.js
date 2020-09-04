@@ -115,6 +115,10 @@ ClassicEditor.builtinPlugins = [
 	// Comments,
 	Highlight,
 
+	FontBackgroundColor,
+	FontFamily,
+	FontColor,
+	FontSize
 
 
 	// IndentBlock,
@@ -163,10 +167,9 @@ ClassicEditor.defaultConfig = {
 
 
 			'|',
-					'highlight',
-						'|',
-			'bold',
-			'italic',
+			'highlight',
+			'|',
+
 			'link',
 			'bulletedList',
 			'numberedList',
