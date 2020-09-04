@@ -34,8 +34,10 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
-// import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
-// import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
+
+
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 
 
 // import Autolink from '@ckeditor/ckeditor5-link/src/autolink.js';
@@ -44,11 +46,11 @@ import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
 // import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
 
 
-// import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
-// import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
-// import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
-// import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
-// import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
+import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
+import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
 
 
 // import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
@@ -104,14 +106,14 @@ ClassicEditor.builtinPlugins = [
 	Base64UploadAdapter,
 	ImageResize,
 
-	// Underline,
-	// Alignment,
+	Underline,
+	Alignment,
 	// Autolink,
 	// Code,
 	// CodeBlock,
 
 	// Comments,
-	// Highlight,
+	Highlight,
 
 
 
@@ -147,8 +149,22 @@ ClassicEditor.defaultConfig = {
 			'undo',
 			'redo',
 			'removeFormat',
+
+
 			'heading',
+			'fontSize',
+			'bold',
+			'italic',
+			'underline',
+			'strikethrough',
+			'fontFamily',
+			'fontColor',
+			'fontBackgroundColor',
+
+
 			'|',
+					'highlight',
+						'|',
 			'bold',
 			'italic',
 			'link',
