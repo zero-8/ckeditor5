@@ -56,14 +56,14 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
 
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
-// import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
-// import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
+import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
+import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
 
-// import SpecialCharactersArrows from '@ckeditor/ckeditor5-special-characters/src/specialcharactersarrows.js';
-// import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency.js';
-// import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials.js';
+import SpecialCharactersArrows from '@ckeditor/ckeditor5-special-characters/src/specialcharactersarrows.js';
+import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency.js';
+import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials.js';
 // import SpecialCharactersMathematical from '@ckeditor/ckeditor5-special-characters/src/specialcharactersmathematical.js';
-// import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/specialcharacterstext.js';
+import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/specialcharacterstext.js';
 
 // import StandardEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/standardeditingmode.js';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
@@ -118,7 +118,7 @@ ClassicEditor.builtinPlugins = [
 	FontBackgroundColor,
 	FontFamily,
 	FontColor,
-	FontSize
+	FontSize,
 
 
 	IndentBlock,
@@ -127,13 +127,13 @@ ClassicEditor.builtinPlugins = [
 	MediaEmbed,
 	PageBreak,	
 	
-	// RemoveFormat,
-	// SpecialCharacters,
-	// SpecialCharactersArrows,
-	// SpecialCharactersCurrency,
-	// SpecialCharactersEssentials,
+	RemoveFormat,
+	SpecialCharacters,
+	SpecialCharactersArrows,
+	SpecialCharactersCurrency,
+	SpecialCharactersEssentials,
 	// SpecialCharactersMathematical,
-	// SpecialCharactersText,
+	SpecialCharactersText,
 	// StandardEditingMode,
 	Strikethrough,
 	Subscript,
@@ -169,7 +169,9 @@ ClassicEditor.defaultConfig = {
 			'superscript',
 			'subscript',
 			'|',
+			'alignment',
 			'highlight',
+			'specialCharacters',
 			'|',
 
 			'link',
@@ -179,7 +181,7 @@ ClassicEditor.defaultConfig = {
 			'indent',
 			'outdent',
 			'pageBreak',
-			
+
 			'|',
 
 			'imageUpload',
