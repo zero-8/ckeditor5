@@ -39,7 +39,7 @@ import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64u
 // import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 // import Image from '@ckeditor/ckeditor5-image/src/image.js';
 // import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
-// import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
 // import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 
 
@@ -72,9 +72,8 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	HorizontalLine,
-	Base64UploadAdapter
-	// Base64UploadAdapter,
-	// ImageResize,
+	Base64UploadAdapter,
+	ImageResize,
 	
 ];
 
@@ -104,9 +103,29 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	image: {
-		
+
+ 		 resizeOptions: [
+                {
+                    name: 'imageResize:original',
+                    label: 'Original',
+                    value: null
+                },
+                {
+                    name: 'imageResize:50',
+                    label: '50%',
+                    value: '50'
+                },
+                {
+                    name: 'imageResize:75',
+                    label: '75%',
+                    value: '75'
+                }
+            ],
 		toolbar: [
-			'imageStyle:alignLeft',
+			'imageStyle:alignLeft',			
+			'|',
+                'imageResize',
+            '|',
 			'imageStyle:full',
 			'imageStyle:side',
 			'|',
