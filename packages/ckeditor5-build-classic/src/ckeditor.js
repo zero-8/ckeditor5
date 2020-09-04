@@ -71,7 +71,7 @@ import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript.js';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-
+import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -140,7 +140,7 @@ ClassicEditor.builtinPlugins = [
 	
 	TableCellProperties,
 	TableProperties,
-	
+	TodoList
 
 
 ];
