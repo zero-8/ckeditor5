@@ -32,8 +32,8 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
-// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
-// import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
 // import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 // import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 
