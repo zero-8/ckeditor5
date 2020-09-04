@@ -72,6 +72,9 @@
     "preversion": "npm run build"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-comments": "^22.0.0",
+    "@ckeditor/ckeditor5-font": "^22.0.0",
+    "@ckeditor/ckeditor5-page-break": "^22.0.0",
     "@ckeditor/ckeditor5-upload": "^22.0.0"
   }
 }
