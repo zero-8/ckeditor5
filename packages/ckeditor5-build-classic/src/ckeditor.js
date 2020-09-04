@@ -13,7 +13,7 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
-// import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
+import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
@@ -30,33 +30,17 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 
-import Autolink from '@ckeditor/ckeditor5-link/src/autolink.js';
 
-import CKFinderUploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js';
-import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
+import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 
-import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
-
-
-
-import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
-
-
-
-
-
-
-import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
-
-
-
-import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
-import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
-
-
-
-import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
-import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+// import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor.js';
+// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+// import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
+// import Image from '@ckeditor/ckeditor5-image/src/image.js';
+// import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
+// import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js';
+// import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
 
 
 
@@ -64,38 +48,33 @@ export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
-	Alignment,
-	Autoformat,
-	Autolink,
-	BlockQuote,
-	Bold,
-	CKFinder,
-	CKFinderUploadAdapter,
-	Comments,
 	Essentials,
-	FontBackgroundColor,
+	UploadAdapter,
+	Autoformat,
+	Bold,
+	Italic,
+	BlockQuote,
+	CKFinder,
+	EasyImage,
 	Heading,
 	Image,
 	ImageCaption,
-	ImageResize,
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
 	Indent,
-	Italic,
 	Link,
 	List,
 	MediaEmbed,
-	PageBreak,
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableCellProperties,
-	TableProperties,
 	TableToolbar,
 	TextTransformation,
-	TodoList,
-	Underline
+	HorizontalLine,
+	Base64UploadAdapter
+	// Base64UploadAdapter,
+	// ImageResize,
 	
 ];
 
@@ -119,15 +98,44 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'HorizontalLine',
+			'Base64UploadAdapter'
 		]
 	},
 	image: {
+	  	styles: [
+            'alignLeft', 'alignCenter', 'alignRight'
+        ],
+        resizeOptions: [
+            {
+                name: 'imageResize:original',
+                label: 'Original',
+                value: null
+            },
+            {
+                name: 'imageResize:50',
+                label: '50%',
+                value: '50'
+            },
+            {
+                name: 'imageResize:75',
+                label: '75%',
+                value: '75'
+            }
+        ],
 		toolbar: [
-			'imageStyle:full',
-			'imageStyle:side',
-			'|',
-			'imageTextAlternative'
+			// 'imageStyle:full',
+			// 'imageStyle:full',
+			// 'imageStyle:side',
+			// '|',
+			// 'imageTextAlternative'
+
+			 'imageStyle:alignLeft', 'imageStyle:alignCenter', 'imageStyle:alignRight',
+                '|',
+                'imageResize',
+                '|',
+                'imageTextAlternative'
 		]
 	},
 	table: {

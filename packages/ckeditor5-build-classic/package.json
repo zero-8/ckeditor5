@@ -1,6 +1,6 @@
 {
-  "name": "@engrjerickcmangalus/ckeditor5-build-custom",
-  "version": "22.0.2",
+  "name": "@engrjerickcmangalus/ckeditor5-build-custom-user",
+  "version": "22.0.7",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -74,6 +74,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-comments": "^22.0.0",
     "@ckeditor/ckeditor5-font": "^22.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^22.0.0",
     "@ckeditor/ckeditor5-page-break": "^22.0.0",
     "@ckeditor/ckeditor5-upload": "^22.0.0"
   }
