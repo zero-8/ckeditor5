@@ -1,6 +1,6 @@
 {
   "name": "@engrjerickcmangalus/ckeditor5-build-custom-ck",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -72,10 +72,17 @@
     "preversion": "npm run build"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^22.0.0",
+    "@ckeditor/ckeditor5-code-block": "^22.0.0",
     "@ckeditor/ckeditor5-comments": "^22.0.0",
     "@ckeditor/ckeditor5-font": "^22.0.0",
+    "@ckeditor/ckeditor5-highlight": "^22.0.0",
     "@ckeditor/ckeditor5-horizontal-line": "^22.0.0",
     "@ckeditor/ckeditor5-page-break": "^22.0.0",
-    "@ckeditor/ckeditor5-upload": "^22.0.0"
+    "@ckeditor/ckeditor5-remove-format": "^22.0.0",
+    "@ckeditor/ckeditor5-restricted-editing": "^22.0.0",
+    "@ckeditor/ckeditor5-special-characters": "^22.0.0",
+    "@ckeditor/ckeditor5-upload": "^22.0.0",
+    "@wiris/mathtype-ckeditor5": "^7.24.0"
   }
 }

@@ -33,14 +33,43 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
-
-// import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor.js';
-// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
-// import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
-// import Image from '@ckeditor/ckeditor5-image/src/image.js';
-// import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
-// import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
+
+
+import Autolink from '@ckeditor/ckeditor5-link/src/autolink.js';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
+import Comments from '@ckeditor/ckeditor5-comments/src/comments.js';
+
+
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
+import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
+import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js';
+
+
+import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
+import MathType from '@wiris/mathtype-ckeditor5';
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
+import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat.js';
+import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
+
+import SpecialCharactersArrows from '@ckeditor/ckeditor5-special-characters/src/specialcharactersarrows.js';
+import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency.js';
+import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials.js';
+import SpecialCharactersMathematical from '@ckeditor/ckeditor5-special-characters/src/specialcharactersmathematical.js';
+import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/specialcharacterstext.js';
+
+import StandardEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/standardeditingmode.js';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
+import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript.js';
+import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
+
+import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 
 
 
@@ -65,7 +94,7 @@ ClassicEditor.builtinPlugins = [
 	Indent,
 	Link,
 	List,
-	MediaEmbed,
+	
 	Paragraph,
 	PasteFromOffice,
 	Table,
@@ -74,13 +103,50 @@ ClassicEditor.builtinPlugins = [
 	HorizontalLine,
 	Base64UploadAdapter,
 	ImageResize,
+
+	Underline,
+	Alignment,
+	Autolink,
+	Code,
+	CodeBlock,
+
+	Comments,
+	Highlight,
+
+
+
+	IndentBlock,
+
+
+	MathType,
+	MediaEmbed,
+	PageBreak,	
 	
+	RemoveFormat,
+	SpecialCharacters,
+	SpecialCharactersArrows,
+	SpecialCharactersCurrency,
+	SpecialCharactersEssentials,
+	SpecialCharactersMathematical,
+	SpecialCharactersText,
+	StandardEditingMode,
+	Strikethrough,
+	Subscript,
+	Superscript,
+	
+	TableCellProperties,
+	TableProperties,
+	
+
+
 ];
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
+			'undo',
+			'redo',
 			'heading',
 			'|',
 			'bold',
