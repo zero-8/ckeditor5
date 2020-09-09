@@ -228,6 +228,17 @@ ClassicEditor.defaultConfig = {
 			// 'horizontalLine',
 		]
 	},
+	link: {
+		decorators: {
+			isExternal: {
+				mode: 'manual',
+				label: 'Open in a new tab',
+				attributes: {
+					target: '_blank'
+				}
+			}
+		}
+	},
 	image: {
   		 styles: [
                 'alignLeft', 'alignCenter', 'alignRight'
