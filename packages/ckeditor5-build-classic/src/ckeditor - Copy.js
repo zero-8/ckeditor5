@@ -32,8 +32,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
-import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter.js';
-// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
 
 
@@ -103,7 +102,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	HorizontalLine,
-	SimpleUploadAdapter,
+	Base64UploadAdapter,
 	ImageResize,
 
 	Underline,
@@ -190,7 +189,7 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',				
-			'SimpleUploadAdapter'
+			'Base64UploadAdapter'
 
 			// 'undo',
 			// 'redo',
