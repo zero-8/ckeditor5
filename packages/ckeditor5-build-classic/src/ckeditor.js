@@ -72,7 +72,7 @@ import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
-
+import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -140,7 +140,8 @@ ClassicEditor.builtinPlugins = [
 	
 	TableCellProperties,
 	TableProperties,
-	TodoList
+	TodoList,
+	LinkImage
 
 
 ];
@@ -268,7 +269,9 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:full',
 			'imageStyle:side',
 			'|',
-			'imageTextAlternative'
+			'imageTextAlternative',
+			'|',
+            'linkImage'
 		]
 	},
 	table: {
