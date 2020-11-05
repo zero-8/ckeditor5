@@ -140,8 +140,7 @@ ClassicEditor.builtinPlugins = [
 	
 	TableCellProperties,
 	TableProperties,
-	TodoList,
-	LinkImage 
+	TodoList
 
 
 ];
@@ -269,9 +268,7 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:full',
 			'imageStyle:side',
 			'|',
-			'imageTextAlternative',
-			'|',
-            'linkImage'
+			'imageTextAlternative'
 		]
 	},
 	table: {
