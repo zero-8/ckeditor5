@@ -32,7 +32,8 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js';
-import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter.js';
+// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
 
 
@@ -72,9 +73,8 @@ import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
+
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
-
-
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -103,7 +103,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	HorizontalLine,
-	Base64UploadAdapter,
+	SimpleUploadAdapter,
 	ImageResize,
 
 	Underline,
@@ -191,7 +191,7 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',				
-			'Base64UploadAdapter'
+			'SimpleUploadAdapter'
 
 			// 'undo',
 			// 'redo',
@@ -271,7 +271,7 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:side',
 			'|',
 			'imageTextAlternative',
-			 '|',
+			'|',
             'linkImage'
 		]
 	},

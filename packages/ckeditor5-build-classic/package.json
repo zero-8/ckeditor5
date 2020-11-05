@@ -1,6 +1,6 @@
 {
-  "name": "@engrjerickcmangalus/ckeditor5-build-custom-inlineupload",
-  "version": "0.1.3",
+  "name": "@engrjerickcmangalus/ckeditor5-build-custom-simpleuploader",
+  "version": "0.1.5",
   
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
