@@ -74,7 +74,7 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 
-
+import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -141,7 +141,8 @@ ClassicEditor.builtinPlugins = [
 	
 	TableCellProperties,
 	TableProperties,
-	TodoList
+	TodoList,
+	LinkImage 
 
 
 ];
