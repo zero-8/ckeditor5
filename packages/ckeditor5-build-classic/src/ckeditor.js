@@ -242,27 +242,16 @@ ClassicEditor.defaultConfig = {
 			// 'horizontalLine',
 		]
 	},
-    fontSize: {
+   	fontSize: {
         options: [
-        	8,
             9,
-            10,
             11,
-            12,
             13,
-            14,
-            15,
             'default',
             17,
-            18,
-            19,            
+            19,
             20,
-            25,
-            50,
-            100,
-            150,
-            200,
-            500,
+            21
         ]
     },
 	link: {
