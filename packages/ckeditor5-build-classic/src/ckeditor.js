@@ -147,7 +147,18 @@ ClassicEditor.builtinPlugins = [
 
 
 ];
-
+fontFamily.options = [
+    'default',
+    'Arial, Helvetica, sans-serif',
+    'Courier New, Courier, monospace',
+    'Georgia, serif',
+    'Lucida Sans Unicode, Lucida Grande, sans-serif',
+    'Tahoma, Geneva, sans-serif',
+    'Times New Roman, Times, serif',
+    'Trebuchet MS, Helvetica, sans-serif',
+    'Verdana, Geneva, sans-serif'
+]
+editor.execute( 'fontFamily' );
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
@@ -233,13 +244,25 @@ ClassicEditor.defaultConfig = {
 	},
     fontSize: {
         options: [
+        	8,
             9,
+            10,
             11,
+            12,
             13,
+            14,
+            15,
             'default',
             17,
-            19,
-            21
+            18,
+            19,            
+            20,
+            25,
+            50,
+            100,
+            150,
+            200,
+            500,
         ]
     },
 	link: {
