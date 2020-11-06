@@ -231,6 +231,17 @@ ClassicEditor.defaultConfig = {
 			// 'horizontalLine',
 		]
 	},
+    fontSize: {
+        options: [
+            9,
+            11,
+            13,
+            'default',
+            17,
+            19,
+            21
+        ]
+    },
 	link: {
 		decorators: {
 			isExternal: {
@@ -241,18 +252,6 @@ ClassicEditor.defaultConfig = {
 				}
 			}
 		}
-	},
- 	fontSize: {
-        options: [
-            // Numerical values.
-        ],
-        supportAllValues: true
-    },
-	fontFamily: {
-        options: [
-            // ...
-        ],
-        supportAllValues: true
 	},
 	image: {
   		 styles: [
