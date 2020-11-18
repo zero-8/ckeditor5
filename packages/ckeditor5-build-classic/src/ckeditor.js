@@ -233,7 +233,9 @@ ClassicEditor.defaultConfig = {
 	},
  	fontFamily: {
         options: [
-            // ...
+	      	'default',
+	        'Ubuntu, Arial, sans-serif',
+	        'Ubuntu Mono, Courier New, Courier, monospace'
         ],
         supportAllValues: true
     },
