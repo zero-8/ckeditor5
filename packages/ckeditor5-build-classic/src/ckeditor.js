@@ -235,7 +235,8 @@ ClassicEditor.defaultConfig = {
         options: [
 	      	'default',
 	        'Ubuntu, Arial, sans-serif',
-	        'Ubuntu Mono, Courier New, Courier, monospace'
+	        'Ubuntu Mono, Courier New, Courier, monospace',
+	        'Calibri/Calibri, Verdana, Geneva, sans-serif;'
         ],
         supportAllValues: true
     },
