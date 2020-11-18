@@ -233,7 +233,8 @@ ClassicEditor.defaultConfig = {
 	},
  	fontFamily: {
         options: [
-			'default',
+        	// 'default',
+        	'Calibri/Calibri, Verdana, Geneva, sans-serif',		
          	'Arial/Arial, Helvetica, sans-serif' ,
             'Comic Sans MS/Comic Sans MS, cursive',
             'Courier New/Courier New, Courier, monospace',
@@ -244,8 +245,7 @@ ClassicEditor.defaultConfig = {
             'Trebuchet MS/Trebuchet MS, Helvetica, sans-serif',         
             'Verdana/Verdana, Geneva, sans-serif',	      	
 	        'Ubuntu, Arial, sans-serif',
-	        'Ubuntu Mono, Courier New, Courier, monospace',
-	        'Calibri/Calibri, Verdana, Geneva, sans-serif'
+	        'Ubuntu Mono, Courier New, Courier, monospace',	        
         ],
         supportAllValues: true
     },
