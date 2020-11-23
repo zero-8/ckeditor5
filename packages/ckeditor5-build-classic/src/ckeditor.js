@@ -150,7 +150,9 @@ ClassicEditor.builtinPlugins = [
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
+	autoParagraph: false,
 	toolbar: {
+
 		items: [
 			'undo',
 			'redo',
