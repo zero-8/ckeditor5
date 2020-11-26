@@ -216,6 +216,28 @@ ClassicEditor.builtinPlugins = [
 //         ],
 //         columns: 9
 //     },
+
+
+
+// a.    #86BC25
+// b.     #C4D600
+// c.      #43B02A
+// d.     #046A38
+// e.     #2C5234
+
+// f.       #0097A9
+// g.      #62B5E5
+// h.     #00A3E0
+// i.       #0076A8
+// j.       #012169
+
+// k.      #D0D0CE
+// l.       #BBBCBC
+// m.   #97999B
+// n.     #75787B
+// o.     #53565A
+
+
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
@@ -302,6 +324,80 @@ ClassicEditor.defaultConfig = {
 	},
 	fontColor: {
         colors: [
+        	//row0
+        	// predefined
+	    	{
+				color: '#86BC25',
+				label: '#86BC25',
+			},
+			{
+				color: '#C4D600',
+				label: '#C4D600',
+			},
+
+			{
+				color: '#43B02A',
+				label: '#43B02A',
+			},
+			{
+				color: '#046A38',
+				label: '#046A38',
+			},
+			{
+				color: '#2C5234',
+				label: '#2C5234',
+			},
+
+
+
+
+			{
+				color: '#0097A9',
+				label: '#0097A9',
+			},
+			{
+				color: '#62B5E5',
+				label: '#62B5E5',
+			},
+
+			{
+				color: '#00A3E0',
+				label: '#00A3E0',
+			},
+			{
+				color: '#0076A8',
+				label: '#0076A8',
+			},
+			{
+				color: '#012169',
+				label: '#012169',
+			},
+
+
+
+
+			{
+				color: '#D0D0CE',
+				label: '#D0D0CE',
+			},
+			{
+				color: '#BBBCBC',
+				label: '#BBBCBC',
+			},
+
+			{
+				color: '#97999B',
+				label: '#97999B',
+			},
+			{
+				color: '#75787B',
+				label: '#75787B',
+			},
+			{
+				color: '#53565A',
+				label: '#53565A',
+			},
+
         	//row1
 	        {
 				color: 'hsl(0, 0%, 0%)',
@@ -826,6 +922,83 @@ ClassicEditor.defaultConfig = {
     },
 	fontBackgroundColor: {
         colors: [
+
+            //row0
+        	// predefined
+	    	{
+				color: '#86BC25',
+				label: '#86BC25',
+			},
+			{
+				color: '#C4D600',
+				label: '#C4D600',
+			},
+
+			{
+				color: '#43B02A',
+				label: '#43B02A',
+			},
+			{
+				color: '#046A38',
+				label: '#046A38',
+			},
+			{
+				color: '#2C5234',
+				label: '#2C5234',
+			},
+
+
+
+
+			{
+				color: '#0097A9',
+				label: '#0097A9',
+			},
+			{
+				color: '#62B5E5',
+				label: '#62B5E5',
+			},
+
+			{
+				color: '#00A3E0',
+				label: '#00A3E0',
+			},
+			{
+				color: '#0076A8',
+				label: '#0076A8',
+			},
+			{
+				color: '#012169',
+				label: '#012169',
+			},
+
+
+
+
+			{
+				color: '#D0D0CE',
+				label: '#D0D0CE',
+			},
+			{
+				color: '#BBBCBC',
+				label: '#BBBCBC',
+			},
+
+			{
+				color: '#97999B',
+				label: '#97999B',
+			},
+			{
+				color: '#75787B',
+				label: '#75787B',
+			},
+			{
+				color: '#53565A',
+				label: '#53565A',
+			},
+
+
+
         	//row1
 	        {
 				color: 'hsl(0, 0%, 0%)',
