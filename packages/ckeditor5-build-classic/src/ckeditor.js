@@ -214,7 +214,7 @@ ClassicEditor.builtinPlugins = [
 // 				}
    
 //         ],
-//         columns: 9
+//         columns: 5
 //     },
 
 
@@ -237,6 +237,603 @@ ClassicEditor.builtinPlugins = [
 // n.     #75787B
 // o.     #53565A
 
+
+   //   colors: [
+   //      	//row0
+   //      	// predefined
+	  //   	{
+			// 	color: '#86BC25',
+			// 	label: '#86BC25',
+			// },
+			// {
+			// 	color: '#C4D600',
+			// 	label: '#C4D600',
+			// },
+
+			// {
+			// 	color: '#43B02A',
+			// 	label: '#43B02A',
+			// },
+			// {
+			// 	color: '#046A38',
+			// 	label: '#046A38',
+			// },
+			// {
+			// 	color: '#2C5234',
+			// 	label: '#2C5234',
+			// },
+
+
+
+
+			// {
+			// 	color: '#0097A9',
+			// 	label: '#0097A9',
+			// },
+			// {
+			// 	color: '#62B5E5',
+			// 	label: '#62B5E5',
+			// },
+
+			// {
+			// 	color: '#00A3E0',
+			// 	label: '#00A3E0',
+			// },
+			// {
+			// 	color: '#0076A8',
+			// 	label: '#0076A8',
+			// },
+			// {
+			// 	color: '#012169',
+			// 	label: '#012169',
+			// },
+
+
+
+
+			// {
+			// 	color: '#D0D0CE',
+			// 	label: '#D0D0CE',
+			// },
+			// {
+			// 	color: '#BBBCBC',
+			// 	label: '#BBBCBC',
+			// },
+
+			// {
+			// 	color: '#97999B',
+			// 	label: '#97999B',
+			// },
+			// {
+			// 	color: '#75787B',
+			// 	label: '#75787B',
+			// },
+			// {
+			// 	color: '#53565A',
+			// 	label: '#53565A',
+			// },
+
+   //      	//row1
+	  //       {
+			// 	color: 'hsl(0, 0%, 0%)',
+			// 	label: 'hsl(0, 0%, 0%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 12.5%)',
+			// 	label: 'hsl(0, 0%, 12.5%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 25%)',
+			// 	label: 'hsl(0, 0%, 25%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 37.5%)',
+			// 	label: 'hsl(0, 0%, 37.5%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 50%)',
+			// 	label: 'hsl(0, 0%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 62.50%)',
+			// 	label: 'hsl(0, 0%, 62.50%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 75%)',
+			// 	label: 'hsl(0, 0%, 75%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 87.5%)',
+			// 	label: 'hsl(0, 0%, 87.5%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 0%, 100%)',
+			// 	label: 'hsl(0, 0%, 100%)',
+			// 	hasBorder: true
+			// },
+			// //9
+			
+  	// 		{
+			// 	color: 'hsl(0, 100%, 10%)',
+			// 	label: 'hsl(0, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 20%)',
+			// 	label: 'hsl(0, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 30%)',
+			// 	label: 'hsl(0, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 40%)',
+			// 	label: 'hsl(0, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 50%)',
+			// 	label: 'hsl(0, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 60%)',
+			// 	label: 'hsl(0, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 70%)',
+			// 	label: 'hsl(0, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 80%)',
+			// 	label: 'hsl(0, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(0, 100%, 90%)',
+			// 	label: 'hsl(0, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //9
+			// //row3
+			// {
+			// 	color: 'hsl(30, 100%, 10%)',
+			// 	label: 'hsl(30, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 20%)',
+			// 	label: 'hsl(30, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 30%)',
+			// 	label: 'hsl(30, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 40%)',
+			// 	label: 'hsl(30, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 50%)',
+			// 	label: 'hsl(30, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 60%)',
+			// 	label: 'hsl(30, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 70%)',
+			// 	label: 'hsl(30, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 80%)',
+			// 	label: 'hsl(30, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(30, 100%, 90%)',
+			// 	label: 'hsl(30, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //9
+			// //row4
+			// {
+			// 	color: 'hsl(60, 100%, 10%)',
+			// 	label: 'hsl(60, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 20%)',
+			// 	label: 'hsl(60, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 30%)',
+			// 	label: 'hsl(60, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 40%)',
+			// 	label: 'hsl(60, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 50%)',
+			// 	label: 'hsl(60, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 60%)',
+			// 	label: 'hsl(60, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 70%)',
+			// 	label: 'hsl(60, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 80%)',
+			// 	label: 'hsl(60, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(60, 100%, 90%)',
+			// 	label: 'hsl(60, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //9
+			// //row5
+			// {
+			// 	color: 'hsl(90, 100%, 10%)',
+			// 	label: 'hsl(90, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 20%)',
+			// 	label: 'hsl(90, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 30%)',
+			// 	label: 'hsl(90, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 40%)',
+			// 	label: 'hsl(90, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 50%)',
+			// 	label: 'hsl(90, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 60%)',
+			// 	label: 'hsl(90, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 70%)',
+			// 	label: 'hsl(90, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 80%)',
+			// 	label: 'hsl(90, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(90, 100%, 90%)',
+			// 	label: 'hsl(90, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+   // 			//9
+			// //row6
+			// {
+			// 	color: 'hsl(120, 100%, 10%)',
+			// 	label: 'hsl(120, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 20%)',
+			// 	label: 'hsl(120, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 30%)',
+			// 	label: 'hsl(120, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 40%)',
+			// 	label: 'hsl(120, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 50%)',
+			// 	label: 'hsl(120, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 60%)',
+			// 	label: 'hsl(120, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 70%)',
+			// 	label: 'hsl(120, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 80%)',
+			// 	label: 'hsl(120, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(120, 100%, 90%)',
+			// 	label: 'hsl(120, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //9
+			// //row7
+			// {
+			// 	color: 'hsl(150, 100%, 10%)',
+			// 	label: 'hsl(150, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 20%)',
+			// 	label: 'hsl(150, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 30%)',
+			// 	label: 'hsl(150, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 40%)',
+			// 	label: 'hsl(150, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 50%)',
+			// 	label: 'hsl(150, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 60%)',
+			// 	label: 'hsl(150, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 70%)',
+			// 	label: 'hsl(150, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 80%)',
+			// 	label: 'hsl(150, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(150, 100%, 90%)',
+			// 	label: 'hsl(150, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //9
+			// //row8
+			// {
+			// 	color: 'hsl(180, 100%, 10%)',
+			// 	label: 'hsl(180, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 20%)',
+			// 	label: 'hsl(180, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 30%)',
+			// 	label: 'hsl(180, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 40%)',
+			// 	label: 'hsl(180, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 50%)',
+			// 	label: 'hsl(180, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 60%)',
+			// 	label: 'hsl(180, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 70%)',
+			// 	label: 'hsl(180, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 80%)',
+			// 	label: 'hsl(180, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(180, 100%, 90%)',
+			// 	label: 'hsl(180, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //10
+			// //row9
+			// {
+			// 	color: 'hsl(210, 100%, 10%)',
+			// 	label: 'hsl(210, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 20%)',
+			// 	label: 'hsl(210, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 30%)',
+			// 	label: 'hsl(210, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 40%)',
+			// 	label: 'hsl(210, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 50%)',
+			// 	label: 'hsl(210, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 60%)',
+			// 	label: 'hsl(210, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 70%)',
+			// 	label: 'hsl(210, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 80%)',
+			// 	label: 'hsl(210, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(210, 100%, 90%)',
+			// 	label: 'hsl(210, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //11
+			// //row9
+			// {
+			// 	color: 'hsl(240, 100%, 10%)',
+			// 	label: 'hsl(240, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 20%)',
+			// 	label: 'hsl(240, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 30%)',
+			// 	label: 'hsl(240, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 40%)',
+			// 	label: 'hsl(240, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 50%)',
+			// 	label: 'hsl(240, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 60%)',
+			// 	label: 'hsl(240, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 70%)',
+			// 	label: 'hsl(240, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 80%)',
+			// 	label: 'hsl(240, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(240, 100%, 90%)',
+			// 	label: 'hsl(240, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //12
+			// //row9
+			// {
+			// 	color: 'hsl(270, 100%, 10%)',
+			// 	label: 'hsl(270, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 20%)',
+			// 	label: 'hsl(270, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 30%)',
+			// 	label: 'hsl(270, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 40%)',
+			// 	label: 'hsl(270, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 50%)',
+			// 	label: 'hsl(270, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 60%)',
+			// 	label: 'hsl(270, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 70%)',
+			// 	label: 'hsl(270, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 80%)',
+			// 	label: 'hsl(270, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(270, 100%, 90%)',
+			// 	label: 'hsl(270, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //13
+			// //row9
+			// {
+			// 	color: 'hsl(300, 100%, 10%)',
+			// 	label: 'hsl(300, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 20%)',
+			// 	label: 'hsl(300, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 30%)',
+			// 	label: 'hsl(300, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 40%)',
+			// 	label: 'hsl(300, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 50%)',
+			// 	label: 'hsl(300, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 60%)',
+			// 	label: 'hsl(300, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 70%)',
+			// 	label: 'hsl(300, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 80%)',
+			// 	label: 'hsl(300, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(300, 100%, 90%)',
+			// 	label: 'hsl(300, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+			// //14
+			// //row9
+			// {
+			// 	color: 'hsl(330, 100%, 10%)',
+			// 	label: 'hsl(330, 100%, 10%)'
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 20%)',
+			// 	label: 'hsl(330, 100%, 20%)'
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 30%)',
+			// 	label: 'hsl(330, 100%, 30%)'
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 40%)',
+			// 	label: 'hsl(330, 100%, 40%)'
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 50%)',
+			// 	label: 'hsl(330, 100%, 50%)'
+				
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 60%)',
+			// 	label: 'hsl(330, 100%, 60%)'
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 70%)',
+			// 	label: 'hsl(330, 100%, 70%)'
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 80%)',
+			// 	label: 'hsl(330, 100%, 80%)'
+			// },
+			// {
+			// 	color: 'hsl(330, 100%, 90%)',
+			// 	label: 'hsl(330, 100%, 90%)',
+			// 	hasBorder: true
+			// },
+   //      ],
+   //      columns: 9
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
@@ -322,1204 +919,288 @@ ClassicEditor.defaultConfig = {
 			// 'horizontalLine',
 		]
 	},
+
 	fontColor: {
         colors: [
-        	//row0
-        	// predefined
-	    	{
-				color: '#86BC25',
-				label: '#86BC25',
-			},
-			{
-				color: '#C4D600',
-				label: '#C4D600',
-			},
-
-			{
-				color: '#43B02A',
-				label: '#43B02A',
-			},
-			{
-				color: '#046A38',
-				label: '#046A38',
-			},
-			{
-				color: '#2C5234',
-				label: '#2C5234',
-			},
 
 
+	   			{
+					color: '#86BC25',
+					label: '#86BC25',
+				},
+				{
+					color: '#C4D600',
+					label: '#C4D600',
+				},
 
-
-			{
-				color: '#0097A9',
-				label: '#0097A9',
-			},
-			{
-				color: '#62B5E5',
-				label: '#62B5E5',
-			},
-
-			{
-				color: '#00A3E0',
-				label: '#00A3E0',
-			},
-			{
-				color: '#0076A8',
-				label: '#0076A8',
-			},
-			{
-				color: '#012169',
-				label: '#012169',
-			},
+				{
+					color: '#43B02A',
+					label: '#43B02A',
+				},
+				{
+					color: '#046A38',
+					label: '#046A38',
+				},
+				{
+					color: '#2C5234',
+					label: '#2C5234',
+				},
 
 
 
 
-			{
-				color: '#D0D0CE',
-				label: '#D0D0CE',
-			},
-			{
-				color: '#BBBCBC',
-				label: '#BBBCBC',
-			},
+				{
+					color: '#0097A9',
+					label: '#0097A9',
+				},
+				{
+					color: '#62B5E5',
+					label: '#62B5E5',
+				},
 
-			{
-				color: '#97999B',
-				label: '#97999B',
-			},
-			{
-				color: '#75787B',
-				label: '#75787B',
-			},
-			{
-				color: '#53565A',
-				label: '#53565A',
-			},
+				{
+					color: '#00A3E0',
+					label: '#00A3E0',
+				},
+				{
+					color: '#0076A8',
+					label: '#0076A8',
+				},
+				{
+					color: '#012169',
+					label: '#012169',
+				},
 
-        	//row1
-	        {
-				color: 'hsl(0, 0%, 0%)',
-				label: 'hsl(0, 0%, 0%)'
-			},
-			{
-				color: 'hsl(0, 0%, 12.5%)',
-				label: 'hsl(0, 0%, 12.5%)'
-			},
-			{
-				color: 'hsl(0, 0%, 25%)',
-				label: 'hsl(0, 0%, 25%)'
-			},
-			{
-				color: 'hsl(0, 0%, 37.5%)',
-				label: 'hsl(0, 0%, 37.5%)'
-			},
-			{
-				color: 'hsl(0, 0%, 50%)',
-				label: 'hsl(0, 0%, 50%)'
-				
-			},
-			{
-				color: 'hsl(0, 0%, 62.50%)',
-				label: 'hsl(0, 0%, 62.50%)'
-			},
-			{
-				color: 'hsl(0, 0%, 75%)',
-				label: 'hsl(0, 0%, 75%)'
-			},
-			{
-				color: 'hsl(0, 0%, 87.5%)',
-				label: 'hsl(0, 0%, 87.5%)'
-			},
-			{
-				color: 'hsl(0, 0%, 100%)',
-				label: 'hsl(0, 0%, 100%)',
-				hasBorder: true
-			},
-			//9
-			
-  			{
-				color: 'hsl(0, 100%, 10%)',
-				label: 'hsl(0, 100%, 10%)'
-			},
-			{
-				color: 'hsl(0, 100%, 20%)',
-				label: 'hsl(0, 100%, 20%)'
-			},
-			{
-				color: 'hsl(0, 100%, 30%)',
-				label: 'hsl(0, 100%, 30%)'
-			},
-			{
-				color: 'hsl(0, 100%, 40%)',
-				label: 'hsl(0, 100%, 40%)'
-			},
-			{
-				color: 'hsl(0, 100%, 50%)',
-				label: 'hsl(0, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(0, 100%, 60%)',
-				label: 'hsl(0, 100%, 60%)'
-			},
-			{
-				color: 'hsl(0, 100%, 70%)',
-				label: 'hsl(0, 100%, 70%)'
-			},
-			{
-				color: 'hsl(0, 100%, 80%)',
-				label: 'hsl(0, 100%, 80%)'
-			},
-			{
-				color: 'hsl(0, 100%, 90%)',
-				label: 'hsl(0, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row3
-			{
-				color: 'hsl(30, 100%, 10%)',
-				label: 'hsl(30, 100%, 10%)'
-			},
-			{
-				color: 'hsl(30, 100%, 20%)',
-				label: 'hsl(30, 100%, 20%)'
-			},
-			{
-				color: 'hsl(30, 100%, 30%)',
-				label: 'hsl(30, 100%, 30%)'
-			},
-			{
-				color: 'hsl(30, 100%, 40%)',
-				label: 'hsl(30, 100%, 40%)'
-			},
-			{
-				color: 'hsl(30, 100%, 50%)',
-				label: 'hsl(30, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(30, 100%, 60%)',
-				label: 'hsl(30, 100%, 60%)'
-			},
-			{
-				color: 'hsl(30, 100%, 70%)',
-				label: 'hsl(30, 100%, 70%)'
-			},
-			{
-				color: 'hsl(30, 100%, 80%)',
-				label: 'hsl(30, 100%, 80%)'
-			},
-			{
-				color: 'hsl(30, 100%, 90%)',
-				label: 'hsl(30, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row4
-			{
-				color: 'hsl(60, 100%, 10%)',
-				label: 'hsl(60, 100%, 10%)'
-			},
-			{
-				color: 'hsl(60, 100%, 20%)',
-				label: 'hsl(60, 100%, 20%)'
-			},
-			{
-				color: 'hsl(60, 100%, 30%)',
-				label: 'hsl(60, 100%, 30%)'
-			},
-			{
-				color: 'hsl(60, 100%, 40%)',
-				label: 'hsl(60, 100%, 40%)'
-			},
-			{
-				color: 'hsl(60, 100%, 50%)',
-				label: 'hsl(60, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(60, 100%, 60%)',
-				label: 'hsl(60, 100%, 60%)'
-			},
-			{
-				color: 'hsl(60, 100%, 70%)',
-				label: 'hsl(60, 100%, 70%)'
-			},
-			{
-				color: 'hsl(60, 100%, 80%)',
-				label: 'hsl(60, 100%, 80%)'
-			},
-			{
-				color: 'hsl(60, 100%, 90%)',
-				label: 'hsl(60, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row5
-			{
-				color: 'hsl(90, 100%, 10%)',
-				label: 'hsl(90, 100%, 10%)'
-			},
-			{
-				color: 'hsl(90, 100%, 20%)',
-				label: 'hsl(90, 100%, 20%)'
-			},
-			{
-				color: 'hsl(90, 100%, 30%)',
-				label: 'hsl(90, 100%, 30%)'
-			},
-			{
-				color: 'hsl(90, 100%, 40%)',
-				label: 'hsl(90, 100%, 40%)'
-			},
-			{
-				color: 'hsl(90, 100%, 50%)',
-				label: 'hsl(90, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(90, 100%, 60%)',
-				label: 'hsl(90, 100%, 60%)'
-			},
-			{
-				color: 'hsl(90, 100%, 70%)',
-				label: 'hsl(90, 100%, 70%)'
-			},
-			{
-				color: 'hsl(90, 100%, 80%)',
-				label: 'hsl(90, 100%, 80%)'
-			},
-			{
-				color: 'hsl(90, 100%, 90%)',
-				label: 'hsl(90, 100%, 90%)',
-				hasBorder: true
-			},
-   			//9
-			//row6
-			{
-				color: 'hsl(120, 100%, 10%)',
-				label: 'hsl(120, 100%, 10%)'
-			},
-			{
-				color: 'hsl(120, 100%, 20%)',
-				label: 'hsl(120, 100%, 20%)'
-			},
-			{
-				color: 'hsl(120, 100%, 30%)',
-				label: 'hsl(120, 100%, 30%)'
-			},
-			{
-				color: 'hsl(120, 100%, 40%)',
-				label: 'hsl(120, 100%, 40%)'
-			},
-			{
-				color: 'hsl(120, 100%, 50%)',
-				label: 'hsl(120, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(120, 100%, 60%)',
-				label: 'hsl(120, 100%, 60%)'
-			},
-			{
-				color: 'hsl(120, 100%, 70%)',
-				label: 'hsl(120, 100%, 70%)'
-			},
-			{
-				color: 'hsl(120, 100%, 80%)',
-				label: 'hsl(120, 100%, 80%)'
-			},
-			{
-				color: 'hsl(120, 100%, 90%)',
-				label: 'hsl(120, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row7
-			{
-				color: 'hsl(150, 100%, 10%)',
-				label: 'hsl(150, 100%, 10%)'
-			},
-			{
-				color: 'hsl(150, 100%, 20%)',
-				label: 'hsl(150, 100%, 20%)'
-			},
-			{
-				color: 'hsl(150, 100%, 30%)',
-				label: 'hsl(150, 100%, 30%)'
-			},
-			{
-				color: 'hsl(150, 100%, 40%)',
-				label: 'hsl(150, 100%, 40%)'
-			},
-			{
-				color: 'hsl(150, 100%, 50%)',
-				label: 'hsl(150, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(150, 100%, 60%)',
-				label: 'hsl(150, 100%, 60%)'
-			},
-			{
-				color: 'hsl(150, 100%, 70%)',
-				label: 'hsl(150, 100%, 70%)'
-			},
-			{
-				color: 'hsl(150, 100%, 80%)',
-				label: 'hsl(150, 100%, 80%)'
-			},
-			{
-				color: 'hsl(150, 100%, 90%)',
-				label: 'hsl(150, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row8
-			{
-				color: 'hsl(180, 100%, 10%)',
-				label: 'hsl(180, 100%, 10%)'
-			},
-			{
-				color: 'hsl(180, 100%, 20%)',
-				label: 'hsl(180, 100%, 20%)'
-			},
-			{
-				color: 'hsl(180, 100%, 30%)',
-				label: 'hsl(180, 100%, 30%)'
-			},
-			{
-				color: 'hsl(180, 100%, 40%)',
-				label: 'hsl(180, 100%, 40%)'
-			},
-			{
-				color: 'hsl(180, 100%, 50%)',
-				label: 'hsl(180, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(180, 100%, 60%)',
-				label: 'hsl(180, 100%, 60%)'
-			},
-			{
-				color: 'hsl(180, 100%, 70%)',
-				label: 'hsl(180, 100%, 70%)'
-			},
-			{
-				color: 'hsl(180, 100%, 80%)',
-				label: 'hsl(180, 100%, 80%)'
-			},
-			{
-				color: 'hsl(180, 100%, 90%)',
-				label: 'hsl(180, 100%, 90%)',
-				hasBorder: true
-			},
-			//10
-			//row9
-			{
-				color: 'hsl(210, 100%, 10%)',
-				label: 'hsl(210, 100%, 10%)'
-			},
-			{
-				color: 'hsl(210, 100%, 20%)',
-				label: 'hsl(210, 100%, 20%)'
-			},
-			{
-				color: 'hsl(210, 100%, 30%)',
-				label: 'hsl(210, 100%, 30%)'
-			},
-			{
-				color: 'hsl(210, 100%, 40%)',
-				label: 'hsl(210, 100%, 40%)'
-			},
-			{
-				color: 'hsl(210, 100%, 50%)',
-				label: 'hsl(210, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(210, 100%, 60%)',
-				label: 'hsl(210, 100%, 60%)'
-			},
-			{
-				color: 'hsl(210, 100%, 70%)',
-				label: 'hsl(210, 100%, 70%)'
-			},
-			{
-				color: 'hsl(210, 100%, 80%)',
-				label: 'hsl(210, 100%, 80%)'
-			},
-			{
-				color: 'hsl(210, 100%, 90%)',
-				label: 'hsl(210, 100%, 90%)',
-				hasBorder: true
-			},
-			//11
-			//row9
-			{
-				color: 'hsl(240, 100%, 10%)',
-				label: 'hsl(240, 100%, 10%)'
-			},
-			{
-				color: 'hsl(240, 100%, 20%)',
-				label: 'hsl(240, 100%, 20%)'
-			},
-			{
-				color: 'hsl(240, 100%, 30%)',
-				label: 'hsl(240, 100%, 30%)'
-			},
-			{
-				color: 'hsl(240, 100%, 40%)',
-				label: 'hsl(240, 100%, 40%)'
-			},
-			{
-				color: 'hsl(240, 100%, 50%)',
-				label: 'hsl(240, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(240, 100%, 60%)',
-				label: 'hsl(240, 100%, 60%)'
-			},
-			{
-				color: 'hsl(240, 100%, 70%)',
-				label: 'hsl(240, 100%, 70%)'
-			},
-			{
-				color: 'hsl(240, 100%, 80%)',
-				label: 'hsl(240, 100%, 80%)'
-			},
-			{
-				color: 'hsl(240, 100%, 90%)',
-				label: 'hsl(240, 100%, 90%)',
-				hasBorder: true
-			},
-			//12
-			//row9
-			{
-				color: 'hsl(270, 100%, 10%)',
-				label: 'hsl(270, 100%, 10%)'
-			},
-			{
-				color: 'hsl(270, 100%, 20%)',
-				label: 'hsl(270, 100%, 20%)'
-			},
-			{
-				color: 'hsl(270, 100%, 30%)',
-				label: 'hsl(270, 100%, 30%)'
-			},
-			{
-				color: 'hsl(270, 100%, 40%)',
-				label: 'hsl(270, 100%, 40%)'
-			},
-			{
-				color: 'hsl(270, 100%, 50%)',
-				label: 'hsl(270, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(270, 100%, 60%)',
-				label: 'hsl(270, 100%, 60%)'
-			},
-			{
-				color: 'hsl(270, 100%, 70%)',
-				label: 'hsl(270, 100%, 70%)'
-			},
-			{
-				color: 'hsl(270, 100%, 80%)',
-				label: 'hsl(270, 100%, 80%)'
-			},
-			{
-				color: 'hsl(270, 100%, 90%)',
-				label: 'hsl(270, 100%, 90%)',
-				hasBorder: true
-			},
-			//13
-			//row9
-			{
-				color: 'hsl(300, 100%, 10%)',
-				label: 'hsl(300, 100%, 10%)'
-			},
-			{
-				color: 'hsl(300, 100%, 20%)',
-				label: 'hsl(300, 100%, 20%)'
-			},
-			{
-				color: 'hsl(300, 100%, 30%)',
-				label: 'hsl(300, 100%, 30%)'
-			},
-			{
-				color: 'hsl(300, 100%, 40%)',
-				label: 'hsl(300, 100%, 40%)'
-			},
-			{
-				color: 'hsl(300, 100%, 50%)',
-				label: 'hsl(300, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(300, 100%, 60%)',
-				label: 'hsl(300, 100%, 60%)'
-			},
-			{
-				color: 'hsl(300, 100%, 70%)',
-				label: 'hsl(300, 100%, 70%)'
-			},
-			{
-				color: 'hsl(300, 100%, 80%)',
-				label: 'hsl(300, 100%, 80%)'
-			},
-			{
-				color: 'hsl(300, 100%, 90%)',
-				label: 'hsl(300, 100%, 90%)',
-				hasBorder: true
-			},
-			//14
-			//row9
-			{
-				color: 'hsl(330, 100%, 10%)',
-				label: 'hsl(330, 100%, 10%)'
-			},
-			{
-				color: 'hsl(330, 100%, 20%)',
-				label: 'hsl(330, 100%, 20%)'
-			},
-			{
-				color: 'hsl(330, 100%, 30%)',
-				label: 'hsl(330, 100%, 30%)'
-			},
-			{
-				color: 'hsl(330, 100%, 40%)',
-				label: 'hsl(330, 100%, 40%)'
-			},
-			{
-				color: 'hsl(330, 100%, 50%)',
-				label: 'hsl(330, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(330, 100%, 60%)',
-				label: 'hsl(330, 100%, 60%)'
-			},
-			{
-				color: 'hsl(330, 100%, 70%)',
-				label: 'hsl(330, 100%, 70%)'
-			},
-			{
-				color: 'hsl(330, 100%, 80%)',
-				label: 'hsl(330, 100%, 80%)'
-			},
-			{
-				color: 'hsl(330, 100%, 90%)',
-				label: 'hsl(330, 100%, 90%)',
-				hasBorder: true
-			},
+
+
+
+				{
+					color: '#D0D0CE',
+					label: '#D0D0CE',
+				},
+				{
+					color: '#BBBCBC',
+					label: '#BBBCBC',
+				},
+
+				{
+					color: '#97999B',
+					label: '#97999B',
+				},
+				{
+					color: '#75787B',
+					label: '#75787B',
+				},
+				{
+					color: '#53565A',
+					label: '#53565A',
+				},
+
+
+
+		        {
+					color: 'hsl(0, 0%, 0%)',
+					label: 'Black'
+				},
+				{
+					color: 'hsl(0, 0%, 30%)',
+					label: 'Dim grey'
+				},
+				{
+					color: 'hsl(0, 0%, 60%)',
+					label: 'Grey'
+				},
+				{
+					color: 'hsl(0, 0%, 90%)',
+					label: 'Light grey'
+				},
+				{
+					color: 'hsl(0, 0%, 100%)',
+					label: 'White',
+					hasBorder: true
+				},
+				{
+					color: 'hsl(0, 75%, 60%)',
+					label: 'Red'
+				},
+				{
+					color: 'hsl(30, 75%, 60%)',
+					label: 'Orange'
+				},
+				{
+					color: 'hsl(60, 75%, 60%)',
+					label: 'Yellow'
+				},
+				{
+					color: 'hsl(90, 75%, 60%)',
+					label: 'Light green'
+				},
+				{
+					color: 'hsl(120, 75%, 60%)',
+					label: 'Green'
+				},
+				{
+					color: 'hsl(150, 75%, 60%)',
+					label: 'Aquamarine'
+				},
+				{
+					color: 'hsl(180, 75%, 60%)',
+					label: 'Turquoise'
+				},
+				{
+					color: 'hsl(210, 75%, 60%)',
+					label: 'Light blue'
+				},
+				{
+					color: 'hsl(240, 75%, 60%)',
+					label: 'Blue'
+				},
+				{
+					color: 'hsl(270, 75%, 60%)',
+					label: 'Purple'
+				}
+   
         ],
-        columns: 9
+        columns: 5
     },
+
 	fontBackgroundColor: {
         colors: [
+				{
+					color: '#86BC25',
+					label: '#86BC25',
+				},
+				{
+					color: '#C4D600',
+					label: '#C4D600',
+				},
 
-            //row0
-        	// predefined
-	    	{
-				color: '#86BC25',
-				label: '#86BC25',
-			},
-			{
-				color: '#C4D600',
-				label: '#C4D600',
-			},
-
-			{
-				color: '#43B02A',
-				label: '#43B02A',
-			},
-			{
-				color: '#046A38',
-				label: '#046A38',
-			},
-			{
-				color: '#2C5234',
-				label: '#2C5234',
-			},
+				{
+					color: '#43B02A',
+					label: '#43B02A',
+				},
+				{
+					color: '#046A38',
+					label: '#046A38',
+				},
+				{
+					color: '#2C5234',
+					label: '#2C5234',
+				},
 
 
 
 
-			{
-				color: '#0097A9',
-				label: '#0097A9',
-			},
-			{
-				color: '#62B5E5',
-				label: '#62B5E5',
-			},
+				{
+					color: '#0097A9',
+					label: '#0097A9',
+				},
+				{
+					color: '#62B5E5',
+					label: '#62B5E5',
+				},
 
-			{
-				color: '#00A3E0',
-				label: '#00A3E0',
-			},
-			{
-				color: '#0076A8',
-				label: '#0076A8',
-			},
-			{
-				color: '#012169',
-				label: '#012169',
-			},
-
-
-
-
-			{
-				color: '#D0D0CE',
-				label: '#D0D0CE',
-			},
-			{
-				color: '#BBBCBC',
-				label: '#BBBCBC',
-			},
-
-			{
-				color: '#97999B',
-				label: '#97999B',
-			},
-			{
-				color: '#75787B',
-				label: '#75787B',
-			},
-			{
-				color: '#53565A',
-				label: '#53565A',
-			},
+				{
+					color: '#00A3E0',
+					label: '#00A3E0',
+				},
+				{
+					color: '#0076A8',
+					label: '#0076A8',
+				},
+				{
+					color: '#012169',
+					label: '#012169',
+				},
 
 
 
-        	//row1
-	        {
-				color: 'hsl(0, 0%, 0%)',
-				label: 'hsl(0, 0%, 0%)'
-			},
-			{
-				color: 'hsl(0, 0%, 12.5%)',
-				label: 'hsl(0, 0%, 12.5%)'
-			},
-			{
-				color: 'hsl(0, 0%, 25%)',
-				label: 'hsl(0, 0%, 25%)'
-			},
-			{
-				color: 'hsl(0, 0%, 37.5%)',
-				label: 'hsl(0, 0%, 37.5%)'
-			},
-			{
-				color: 'hsl(0, 0%, 50%)',
-				label: 'hsl(0, 0%, 50%)'
-				
-			},
-			{
-				color: 'hsl(0, 0%, 62.50%)',
-				label: 'hsl(0, 0%, 62.50%)'
-			},
-			{
-				color: 'hsl(0, 0%, 75%)',
-				label: 'hsl(0, 0%, 75%)'
-			},
-			{
-				color: 'hsl(0, 0%, 87.5%)',
-				label: 'hsl(0, 0%, 87.5%)'
-			},
-			{
-				color: 'hsl(0, 0%, 100%)',
-				label: 'hsl(0, 0%, 100%)',
-				hasBorder: true
-			},
-			//9
-			
-  			{
-				color: 'hsl(0, 100%, 10%)',
-				label: 'hsl(0, 100%, 10%)'
-			},
-			{
-				color: 'hsl(0, 100%, 20%)',
-				label: 'hsl(0, 100%, 20%)'
-			},
-			{
-				color: 'hsl(0, 100%, 30%)',
-				label: 'hsl(0, 100%, 30%)'
-			},
-			{
-				color: 'hsl(0, 100%, 40%)',
-				label: 'hsl(0, 100%, 40%)'
-			},
-			{
-				color: 'hsl(0, 100%, 50%)',
-				label: 'hsl(0, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(0, 100%, 60%)',
-				label: 'hsl(0, 100%, 60%)'
-			},
-			{
-				color: 'hsl(0, 100%, 70%)',
-				label: 'hsl(0, 100%, 70%)'
-			},
-			{
-				color: 'hsl(0, 100%, 80%)',
-				label: 'hsl(0, 100%, 80%)'
-			},
-			{
-				color: 'hsl(0, 100%, 90%)',
-				label: 'hsl(0, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row3
-			{
-				color: 'hsl(30, 100%, 10%)',
-				label: 'hsl(30, 100%, 10%)'
-			},
-			{
-				color: 'hsl(30, 100%, 20%)',
-				label: 'hsl(30, 100%, 20%)'
-			},
-			{
-				color: 'hsl(30, 100%, 30%)',
-				label: 'hsl(30, 100%, 30%)'
-			},
-			{
-				color: 'hsl(30, 100%, 40%)',
-				label: 'hsl(30, 100%, 40%)'
-			},
-			{
-				color: 'hsl(30, 100%, 50%)',
-				label: 'hsl(30, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(30, 100%, 60%)',
-				label: 'hsl(30, 100%, 60%)'
-			},
-			{
-				color: 'hsl(30, 100%, 70%)',
-				label: 'hsl(30, 100%, 70%)'
-			},
-			{
-				color: 'hsl(30, 100%, 80%)',
-				label: 'hsl(30, 100%, 80%)'
-			},
-			{
-				color: 'hsl(30, 100%, 90%)',
-				label: 'hsl(30, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row4
-			{
-				color: 'hsl(60, 100%, 10%)',
-				label: 'hsl(60, 100%, 10%)'
-			},
-			{
-				color: 'hsl(60, 100%, 20%)',
-				label: 'hsl(60, 100%, 20%)'
-			},
-			{
-				color: 'hsl(60, 100%, 30%)',
-				label: 'hsl(60, 100%, 30%)'
-			},
-			{
-				color: 'hsl(60, 100%, 40%)',
-				label: 'hsl(60, 100%, 40%)'
-			},
-			{
-				color: 'hsl(60, 100%, 50%)',
-				label: 'hsl(60, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(60, 100%, 60%)',
-				label: 'hsl(60, 100%, 60%)'
-			},
-			{
-				color: 'hsl(60, 100%, 70%)',
-				label: 'hsl(60, 100%, 70%)'
-			},
-			{
-				color: 'hsl(60, 100%, 80%)',
-				label: 'hsl(60, 100%, 80%)'
-			},
-			{
-				color: 'hsl(60, 100%, 90%)',
-				label: 'hsl(60, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row5
-			{
-				color: 'hsl(90, 100%, 10%)',
-				label: 'hsl(90, 100%, 10%)'
-			},
-			{
-				color: 'hsl(90, 100%, 20%)',
-				label: 'hsl(90, 100%, 20%)'
-			},
-			{
-				color: 'hsl(90, 100%, 30%)',
-				label: 'hsl(90, 100%, 30%)'
-			},
-			{
-				color: 'hsl(90, 100%, 40%)',
-				label: 'hsl(90, 100%, 40%)'
-			},
-			{
-				color: 'hsl(90, 100%, 50%)',
-				label: 'hsl(90, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(90, 100%, 60%)',
-				label: 'hsl(90, 100%, 60%)'
-			},
-			{
-				color: 'hsl(90, 100%, 70%)',
-				label: 'hsl(90, 100%, 70%)'
-			},
-			{
-				color: 'hsl(90, 100%, 80%)',
-				label: 'hsl(90, 100%, 80%)'
-			},
-			{
-				color: 'hsl(90, 100%, 90%)',
-				label: 'hsl(90, 100%, 90%)',
-				hasBorder: true
-			},
-   			//9
-			//row6
-			{
-				color: 'hsl(120, 100%, 10%)',
-				label: 'hsl(120, 100%, 10%)'
-			},
-			{
-				color: 'hsl(120, 100%, 20%)',
-				label: 'hsl(120, 100%, 20%)'
-			},
-			{
-				color: 'hsl(120, 100%, 30%)',
-				label: 'hsl(120, 100%, 30%)'
-			},
-			{
-				color: 'hsl(120, 100%, 40%)',
-				label: 'hsl(120, 100%, 40%)'
-			},
-			{
-				color: 'hsl(120, 100%, 50%)',
-				label: 'hsl(120, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(120, 100%, 60%)',
-				label: 'hsl(120, 100%, 60%)'
-			},
-			{
-				color: 'hsl(120, 100%, 70%)',
-				label: 'hsl(120, 100%, 70%)'
-			},
-			{
-				color: 'hsl(120, 100%, 80%)',
-				label: 'hsl(120, 100%, 80%)'
-			},
-			{
-				color: 'hsl(120, 100%, 90%)',
-				label: 'hsl(120, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row7
-			{
-				color: 'hsl(150, 100%, 10%)',
-				label: 'hsl(150, 100%, 10%)'
-			},
-			{
-				color: 'hsl(150, 100%, 20%)',
-				label: 'hsl(150, 100%, 20%)'
-			},
-			{
-				color: 'hsl(150, 100%, 30%)',
-				label: 'hsl(150, 100%, 30%)'
-			},
-			{
-				color: 'hsl(150, 100%, 40%)',
-				label: 'hsl(150, 100%, 40%)'
-			},
-			{
-				color: 'hsl(150, 100%, 50%)',
-				label: 'hsl(150, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(150, 100%, 60%)',
-				label: 'hsl(150, 100%, 60%)'
-			},
-			{
-				color: 'hsl(150, 100%, 70%)',
-				label: 'hsl(150, 100%, 70%)'
-			},
-			{
-				color: 'hsl(150, 100%, 80%)',
-				label: 'hsl(150, 100%, 80%)'
-			},
-			{
-				color: 'hsl(150, 100%, 90%)',
-				label: 'hsl(150, 100%, 90%)',
-				hasBorder: true
-			},
-			//9
-			//row8
-			{
-				color: 'hsl(180, 100%, 10%)',
-				label: 'hsl(180, 100%, 10%)'
-			},
-			{
-				color: 'hsl(180, 100%, 20%)',
-				label: 'hsl(180, 100%, 20%)'
-			},
-			{
-				color: 'hsl(180, 100%, 30%)',
-				label: 'hsl(180, 100%, 30%)'
-			},
-			{
-				color: 'hsl(180, 100%, 40%)',
-				label: 'hsl(180, 100%, 40%)'
-			},
-			{
-				color: 'hsl(180, 100%, 50%)',
-				label: 'hsl(180, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(180, 100%, 60%)',
-				label: 'hsl(180, 100%, 60%)'
-			},
-			{
-				color: 'hsl(180, 100%, 70%)',
-				label: 'hsl(180, 100%, 70%)'
-			},
-			{
-				color: 'hsl(180, 100%, 80%)',
-				label: 'hsl(180, 100%, 80%)'
-			},
-			{
-				color: 'hsl(180, 100%, 90%)',
-				label: 'hsl(180, 100%, 90%)',
-				hasBorder: true
-			},
-			//10
-			//row9
-			{
-				color: 'hsl(210, 100%, 10%)',
-				label: 'hsl(210, 100%, 10%)'
-			},
-			{
-				color: 'hsl(210, 100%, 20%)',
-				label: 'hsl(210, 100%, 20%)'
-			},
-			{
-				color: 'hsl(210, 100%, 30%)',
-				label: 'hsl(210, 100%, 30%)'
-			},
-			{
-				color: 'hsl(210, 100%, 40%)',
-				label: 'hsl(210, 100%, 40%)'
-			},
-			{
-				color: 'hsl(210, 100%, 50%)',
-				label: 'hsl(210, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(210, 100%, 60%)',
-				label: 'hsl(210, 100%, 60%)'
-			},
-			{
-				color: 'hsl(210, 100%, 70%)',
-				label: 'hsl(210, 100%, 70%)'
-			},
-			{
-				color: 'hsl(210, 100%, 80%)',
-				label: 'hsl(210, 100%, 80%)'
-			},
-			{
-				color: 'hsl(210, 100%, 90%)',
-				label: 'hsl(210, 100%, 90%)',
-				hasBorder: true
-			},
-			//11
-			//row9
-			{
-				color: 'hsl(240, 100%, 10%)',
-				label: 'hsl(240, 100%, 10%)'
-			},
-			{
-				color: 'hsl(240, 100%, 20%)',
-				label: 'hsl(240, 100%, 20%)'
-			},
-			{
-				color: 'hsl(240, 100%, 30%)',
-				label: 'hsl(240, 100%, 30%)'
-			},
-			{
-				color: 'hsl(240, 100%, 40%)',
-				label: 'hsl(240, 100%, 40%)'
-			},
-			{
-				color: 'hsl(240, 100%, 50%)',
-				label: 'hsl(240, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(240, 100%, 60%)',
-				label: 'hsl(240, 100%, 60%)'
-			},
-			{
-				color: 'hsl(240, 100%, 70%)',
-				label: 'hsl(240, 100%, 70%)'
-			},
-			{
-				color: 'hsl(240, 100%, 80%)',
-				label: 'hsl(240, 100%, 80%)'
-			},
-			{
-				color: 'hsl(240, 100%, 90%)',
-				label: 'hsl(240, 100%, 90%)',
-				hasBorder: true
-			},
-			//12
-			//row9
-			{
-				color: 'hsl(270, 100%, 10%)',
-				label: 'hsl(270, 100%, 10%)'
-			},
-			{
-				color: 'hsl(270, 100%, 20%)',
-				label: 'hsl(270, 100%, 20%)'
-			},
-			{
-				color: 'hsl(270, 100%, 30%)',
-				label: 'hsl(270, 100%, 30%)'
-			},
-			{
-				color: 'hsl(270, 100%, 40%)',
-				label: 'hsl(270, 100%, 40%)'
-			},
-			{
-				color: 'hsl(270, 100%, 50%)',
-				label: 'hsl(270, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(270, 100%, 60%)',
-				label: 'hsl(270, 100%, 60%)'
-			},
-			{
-				color: 'hsl(270, 100%, 70%)',
-				label: 'hsl(270, 100%, 70%)'
-			},
-			{
-				color: 'hsl(270, 100%, 80%)',
-				label: 'hsl(270, 100%, 80%)'
-			},
-			{
-				color: 'hsl(270, 100%, 90%)',
-				label: 'hsl(270, 100%, 90%)',
-				hasBorder: true
-			},
-			//13
-			//row9
-			{
-				color: 'hsl(300, 100%, 10%)',
-				label: 'hsl(300, 100%, 10%)'
-			},
-			{
-				color: 'hsl(300, 100%, 20%)',
-				label: 'hsl(300, 100%, 20%)'
-			},
-			{
-				color: 'hsl(300, 100%, 30%)',
-				label: 'hsl(300, 100%, 30%)'
-			},
-			{
-				color: 'hsl(300, 100%, 40%)',
-				label: 'hsl(300, 100%, 40%)'
-			},
-			{
-				color: 'hsl(300, 100%, 50%)',
-				label: 'hsl(300, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(300, 100%, 60%)',
-				label: 'hsl(300, 100%, 60%)'
-			},
-			{
-				color: 'hsl(300, 100%, 70%)',
-				label: 'hsl(300, 100%, 70%)'
-			},
-			{
-				color: 'hsl(300, 100%, 80%)',
-				label: 'hsl(300, 100%, 80%)'
-			},
-			{
-				color: 'hsl(300, 100%, 90%)',
-				label: 'hsl(300, 100%, 90%)',
-				hasBorder: true
-			},
-			//14
-			//row9
-			{
-				color: 'hsl(330, 100%, 10%)',
-				label: 'hsl(330, 100%, 10%)'
-			},
-			{
-				color: 'hsl(330, 100%, 20%)',
-				label: 'hsl(330, 100%, 20%)'
-			},
-			{
-				color: 'hsl(330, 100%, 30%)',
-				label: 'hsl(330, 100%, 30%)'
-			},
-			{
-				color: 'hsl(330, 100%, 40%)',
-				label: 'hsl(330, 100%, 40%)'
-			},
-			{
-				color: 'hsl(330, 100%, 50%)',
-				label: 'hsl(330, 100%, 50%)'
-				
-			},
-			{
-				color: 'hsl(330, 100%, 60%)',
-				label: 'hsl(330, 100%, 60%)'
-			},
-			{
-				color: 'hsl(330, 100%, 70%)',
-				label: 'hsl(330, 100%, 70%)'
-			},
-			{
-				color: 'hsl(330, 100%, 80%)',
-				label: 'hsl(330, 100%, 80%)'
-			},
-			{
-				color: 'hsl(330, 100%, 90%)',
-				label: 'hsl(330, 100%, 90%)',
-				hasBorder: true
-			},
+
+				{
+					color: '#D0D0CE',
+					label: '#D0D0CE',
+				},
+				{
+					color: '#BBBCBC',
+					label: '#BBBCBC',
+				},
+
+				{
+					color: '#97999B',
+					label: '#97999B',
+				},
+				{
+					color: '#75787B',
+					label: '#75787B',
+				},
+				{
+					color: '#53565A',
+					label: '#53565A',
+				},
+		        {
+					color: 'hsl(0, 0%, 0%)',
+					label: 'Black'
+				},
+				{
+					color: 'hsl(0, 0%, 30%)',
+					label: 'Dim grey'
+				},
+				{
+					color: 'hsl(0, 0%, 60%)',
+					label: 'Grey'
+				},
+				{
+					color: 'hsl(0, 0%, 90%)',
+					label: 'Light grey'
+				},
+				{
+					color: 'hsl(0, 0%, 100%)',
+					label: 'White',
+					hasBorder: true
+				},
+				{
+					color: 'hsl(0, 75%, 60%)',
+					label: 'Red'
+				},
+				{
+					color: 'hsl(30, 75%, 60%)',
+					label: 'Orange'
+				},
+				{
+					color: 'hsl(60, 75%, 60%)',
+					label: 'Yellow'
+				},
+				{
+					color: 'hsl(90, 75%, 60%)',
+					label: 'Light green'
+				},
+				{
+					color: 'hsl(120, 75%, 60%)',
+					label: 'Green'
+				},
+				{
+					color: 'hsl(150, 75%, 60%)',
+					label: 'Aquamarine'
+				},
+				{
+					color: 'hsl(180, 75%, 60%)',
+					label: 'Turquoise'
+				},
+				{
+					color: 'hsl(210, 75%, 60%)',
+					label: 'Light blue'
+				},
+				{
+					color: 'hsl(240, 75%, 60%)',
+					label: 'Blue'
+				},
+				{
+					color: 'hsl(270, 75%, 60%)',
+					label: 'Purple'
+				}
+   
         ],
-        columns: 9
+        columns: 5
     },
  	fontFamily: {
         options: [
